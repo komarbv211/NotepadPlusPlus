@@ -233,11 +233,11 @@ namespace NotepadPlusPlus_10._11._23
             {
                 if (selectedRichTextBox.WordWrap)
                 {
-                    selectedRichTextBox.WordWrap = !richTextBox.WordWrap;
+                    selectedRichTextBox.WordWrap = !selectedRichTextBox.WordWrap;
                 }
                 else
                 {
-                    selectedRichTextBox.WordWrap = true;
+                    selectedRichTextBox.WordWrap = false;
                 }
 
             }
@@ -466,8 +466,6 @@ namespace NotepadPlusPlus_10._11._23
         private void Form1_Load(object sender, EventArgs e)
         {
             LoadTabsFromFile();
-            MessageBox.Show("");
-
         }
         private void LoadTabsFromFile()
         {
