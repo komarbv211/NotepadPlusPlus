@@ -237,7 +237,7 @@ namespace NotepadPlusPlus_10._11._23
                 }
                 else
                 {
-                    selectedRichTextBox.WordWrap = false;
+                    selectedRichTextBox.WordWrap = true;
                 }
 
             }
