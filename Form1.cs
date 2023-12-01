@@ -466,6 +466,8 @@ namespace NotepadPlusPlus_10._11._23
         private void Form1_Load(object sender, EventArgs e)
         {
             LoadTabsFromFile();
+            MessageBox.Show("");
+
         }
         private void LoadTabsFromFile()
         {
